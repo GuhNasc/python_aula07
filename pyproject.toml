@@ -2,12 +2,15 @@
 name = "aula"
 version = "0.1.0"
 description = ""
-authors = ["GuhNasc gpaulino31@hotmail.com>"]
+authors = ["Guh Nasc <gpaulino31@hotmail.com>"]
 license = ""
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.11"
+python = "3.11.5"
+pandera = "^0.22.1"
+pandas = "^2.2.3"
+fastparquet = "^2024.11.0"
 
 
 [build-system]
